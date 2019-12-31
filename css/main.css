@@ -1,0 +1,195 @@
+body {
+    color: rgba(255, 255, 255, 0.95);
+    font-family: "Open Sans";
+    background: linear-gradient(90deg, #ffffff 50%, #2d2f3e 50%);
+    background: linear-gradient(180deg, #2d3142 40%, #15151a 100%);
+}
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+.nike-logo {
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 0px 10px;
+}
+
+.background-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url("../image/nike-bg.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: 0.4;
+}
+
+.random-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cb364f;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+    clip-path: polygon(0% 0, 85% 100%, 0 100%);
+    z-index: -1;
+}
+
+.another-random-box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    clip-path: polygon(0% 0, 65% 100%, 0 100%);
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.2);
+    padding: 0px 30px;
+    background: linear-gradient(
+        180deg,
+        rgba(74, 79, 103, 1) 20%,
+        rgba(35, 35, 44, 1) 100%
+    );
+    position: relative;
+}
+
+.inner {
+    width: 480px;
+    height: 100%;
+    max-height: 300px;
+    background-image: url("../image/shoe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -84px;
+    left: -80px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+    transform: rotate(-15deg);
+    filter: drop-shadow(0px 6px 7px rgba(34, 34, 34, 0.9)) brightness(110%)
+      saturate(150%);
+}
+
+button {
+    border-radius: 50px;
+    width: 60px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #f63854;
+    border: none;
+    color: white;
+    line-height: 0;
+}
+
+.product-name {
+    font-weight: 700;
+    letter-spacing: -2px;
+    position: relative;
+    z-index: 1;
+    font-size: 40px;
+}
+
+.product-number {
+    font-size: 100px;
+    color: rgba(64, 67, 89, 0.6);
+    margin: 0px;
+    padding-bottom: 60px;
+    font-weight: 800;
+    top: -25px;
+    position: relative;
+}
+
+.product-air {
+    position: absolute;
+    z-index: 0;
+    color: rgba(47, 49, 62, 0.6);
+    font-size: 150px;
+    font-weight: 800;
+    margin: 0;
+    top: -60px;
+    left: 12px;
+    background: -webkit-linear-gradient(
+      rgba(47, 49, 62, 0.6) 60%,
+      rgba(47, 49, 62, 0.8) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-price {
+    font-weight: 700;
+    letter-spacing: -2px;
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex: 1 1 100%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    position: relative;
+}
+
+.flex {
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+.full-width {
+    flex-basis: 100%;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+.shrink {
+    flex-grow: 0 !important;
+    flex-shrink: 1 !important;
+}
+
+.pad {
+    padding: 45px 0;
+}
+
+.align-center {
+    align-content: center;
+}
+
+.pad-bottom {
+    padding: 0 0 20px 0;
+}
