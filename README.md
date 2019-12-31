@@ -10,7 +10,7 @@ variar considerablemente, como fotos con subtítulos de longitud variable.
 
 ## 
 <p align="center">
-  <img align="center" src="https://media.giphy.com/media/hrFOrCYxyH9INWxIYU/giphy.gif" alt="screen">
+  <img align="center" src="https://media.giphy.com/media/jUi8Iqn2YfYZrSWESY/giphy.gif" alt="screen">
 </p>
 
 ##
