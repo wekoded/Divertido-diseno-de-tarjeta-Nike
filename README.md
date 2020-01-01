@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/Kodesarrolladores/Base/blob/master/FB%20profile/facebook-profile-transparente.png" alt="Mark Text" width="100" height="100"></p>
 
-<h1 align="center">Divertido diseño de tarjetas Nike</h1>
+<h1 align="center">Divertido diseño de tarjeta Nike</h1>
 
 <p align="center">
 Las tarjetas son un medio conveniente para mostrar contenido compuesto por diferentes tipos de objetos.<br>
